@@ -7,3 +7,8 @@ console.log(`Server is running on PORT ${PORT}`);
 
 });
 
+app.get ("/", (req, res) => {
+    res.send("Sajan Shrestha")
+
+
+});
